@@ -1,0 +1,28 @@
+Title: Settings
+----
+Text:
+
+This whole thing is based on [Kirby](http://getkirby.com), a *file based* content management system. So, if you want to change settings, you'll have to edit some files.
+
+Also, since this page does not embody any *settings*, how about an *FAQ*?
+
+## > How do I post URLs?
+Currently, via the [Workflow app](https://workflow.is/) and [this workflow](.) I've created for it.
+
+## > Where is my password?
+There is no password. There are three words, generated at the time of the install, which are sent with your URL request to make sure you are the one who wants to add a link to your list, and not some stranger/spammer.
+
+## > OK, fine, where are those *three words* then?
+It's under `content/save/save.txt` file, under the `ThreeSecureWords` field. 
+
+## > My words are compromised! I'm seeing spam!
+Change your [three words](https://threewords.cemkesemen.com) in `content/save/save.txt`, under the `ThreeSecureWords` field.  
+Also, make sure your [Apache](https://github.com/getkirby/plainkit/blob/master/.htaccess)/[nginx](https://gist.github.com/bastianallgeier/c2e1f1e519f5f2943ec4#gistcomment-1795907)/[Caddy](https://github.com/caddyserver/examples/blob/master/kirby/Caddyfile_root) config is set so the `content` directory is not visible.
+
+## > I'm getting weird errors while submitting. 
+I've made a thorough effort to make sure error messages were self explanatory. If not, [come at me](https://youtu.be/Dp0Bt2cbcc8) on twitter: [@cemkesemen](https://twitter.com/cemkesemen)  
+*(A quick check-list: Make sure you use an app, make sure your words are correct, make sure the `content` folder has the right permissions.)*
+
+
+## > How do I show more results on *[/latest](/)* page
+To do that, go to `content/urls/view.txt` file and edit the `ViewLastDays` value. Default is `3`.

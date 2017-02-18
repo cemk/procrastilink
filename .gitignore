@@ -1,0 +1,6 @@
+.DS_Store
+/site/accounts
+/content/urls/*
+/assets/avatars
+/thumbs/*
+/assets/bower_components/

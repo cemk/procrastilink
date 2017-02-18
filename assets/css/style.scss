@@ -1,0 +1,103 @@
+@import '../bower_components/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400|Overpass+Mono&subset=latin-ext');
+
+//$blue: darken(steelblue, 15%);
+$blue: steelblue;
+$grayish: lighten($gray-light, 25%);
+
+body {
+	font-family: 'Overpass Mono', 'Source Code Pro', monospace;
+}
+
+a {
+
+	color: $blue;
+	&:visited {
+		color: $grayish;
+		text-decoration: underline !important;
+	}
+
+
+
+	.active {
+
+	}
+}
+
+a:visited:before {
+   content:  "\2713 ";
+}
+
+h1 {
+	@extend h4;
+	margin-top: 20px;
+	color: $gray;
+}
+
+.header ul {
+	padding: 0 0;
+
+	li {
+		list-style-type: none;
+		list-style-position: outside;
+		display: inline;
+		margin-right: 25px;
+
+		.active {
+			
+		}
+	}
+
+	a {
+		// color: $teal;
+
+		&:visited {
+			color: $blue;
+		}
+
+		&.active {
+			// text-decoration: underline !important;
+			color: $grayish;
+		}
+	}
+
+}
+
+.list {
+
+	margin-top: 55px;
+
+
+
+	h2 {
+		@extend h3;
+		color: $gray;
+	}
+
+	ul {
+		padding: 0 0;
+
+		li {
+			margin: 0 0 15px 0;
+			list-style-type: none;
+			list-style-position: outside;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;			
+		}
+	}
+
+}
+
+.settings {
+	margin-top: 20px;
+
+	h2 {
+		@extend h5;
+		margin-top: 40px;
+	}
+
+	h3 {
+		@extend h6;
+	}
+}
