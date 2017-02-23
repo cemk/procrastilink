@@ -15,8 +15,14 @@
 <div class="header">
 	<h1><?php echo $site->title()->html() ?></h1>
 	<ul class="menu">
-		<li><a href="/" <?php e($site->page('home')->isOpen(), ' class="active"') ?>>/latest <?php echo $site->view(); ?></a></li>
-		<li><a href="/all" <?php e($site->page('all')->isOpen(), ' class="active"') ?>>/all</a></li>
-		<li><a href="/settings" <?php e($site->page('settings')->isOpen(), ' class="active"') ?>>*settings</a></li>
+
+	<?php
+		$items = $pages->visible();
+		foreach($items as $item): 
+	?>
+    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo $item->menu()->html() ?></a></li>
+    
+    <?php endforeach ?>
+
 	</ul>
 </div>

@@ -1,5 +1,7 @@
 Title: Settings
 ----
+Menu: *settings
+----
 Text:
 
 This whole thing is based on [Kirby](http://getkirby.com), a *file based* content management system. So, if you want to change settings, you'll have to edit some files.

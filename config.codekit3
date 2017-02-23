@@ -3673,10 +3673,22 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/content\/all\/view.txt": {
+	"\/content\/1-home\/view.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/all\/view.txt",
+		"oAP": "\/content\/1-home\/view.txt",
+		"oF": 0
+		},
+	"\/content\/2-all\/view.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-all\/view.txt",
+		"oF": 0
+		},
+	"\/content\/3-settings\/settings.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-settings\/settings.txt",
 		"oF": 0
 		},
 	"\/content\/error\/error.txt": {
@@ -3685,10 +3697,10 @@
 		"oAP": "\/content\/error\/error.txt",
 		"oF": 0
 		},
-	"\/content\/home\/view.txt": {
+	"\/content\/install\/install.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/home\/view.txt",
+		"oAP": "\/content\/install\/install.txt",
 		"oF": 0
 		},
 	"\/content\/save\/save.txt": {
@@ -3697,46 +3709,34 @@
 		"oAP": "\/content\/save\/save.txt",
 		"oF": 0
 		},
-	"\/content\/settings\/settings.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/settings\/settings.txt",
-		"oF": 0
-		},
 	"\/content\/site.txt": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/content\/site.txt",
 		"oF": 0
 		},
-	"\/content\/urls\/20170208 copy\/urls.txt": {
+	"\/content\/urls\/20170221\/urls.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/urls\/20170208 copy\/urls.txt",
+		"oAP": "\/content\/urls\/20170221\/urls.txt",
 		"oF": 0
 		},
-	"\/content\/urls\/20170208\/urls.txt": {
+	"\/content\/urls\/20170222\/urls.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/urls\/20170208\/urls.txt",
+		"oAP": "\/content\/urls\/20170222\/urls.txt",
 		"oF": 0
 		},
-	"\/content\/urls\/20170210\/urls.txt": {
+	"\/content\/urls\/20170223\/urls.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/urls\/20170210\/urls.txt",
+		"oAP": "\/content\/urls\/20170223\/urls.txt",
 		"oF": 0
 		},
-	"\/content\/urls\/20170211\/urls.txt": {
+	"\/content\/urls\/view.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/urls\/20170211\/urls.txt",
-		"oF": 0
-		},
-	"\/content\/urls\/20170216\/urls.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/content\/urls\/20170216\/urls.txt",
+		"oAP": "\/content\/urls\/view.txt",
 		"oF": 0
 		},
 	"\/index.php": {
@@ -7213,10 +7213,16 @@
 		"oAP": "\/site\/plugins\/.gitkeep",
 		"oF": 0
 		},
-	"\/site\/plugins\/kirbytextSans.php": {
+	"\/site\/plugins\/getWords.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/site\/plugins\/kirbytextSans.php",
+		"oAP": "\/site\/plugins\/getWords.php",
+		"oF": 0
+		},
+	"\/site\/plugins\/threeWordsCheck.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/plugins\/threeWordsCheck.php",
 		"oF": 0
 		},
 	"\/site\/snippets\/footer.php": {
@@ -7235,6 +7241,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/templates\/default.php",
+		"oF": 0
+		},
+	"\/site\/templates\/install.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/templates\/install.php",
 		"oF": 0
 		},
 	"\/site\/templates\/save.php": {
@@ -8604,7 +8616,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/kirbylistfile.dev",
+	"externalServerAddress": "http:\/\/procrastilink.dev",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

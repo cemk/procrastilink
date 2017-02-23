@@ -1,4 +1,10 @@
-<?php snippet('header');
+<?php 
+
+snippet('header');
+
+if(!site()->pages()->has('urls')) {
+	go('install');
+}
 
 ?>
 
