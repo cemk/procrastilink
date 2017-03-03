@@ -1,0 +1,10 @@
+Title: Installation Error
+----
+Text:
+
+Sorry! Something seems to be off. 
+
+Can you run `chmod 755 content` from your procrastilinks folder and [try again](/install/try)?
+
+If that fails too, please [contact me](https://twitter.com/cemkesemen).
+

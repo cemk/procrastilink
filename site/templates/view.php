@@ -27,7 +27,7 @@ if(!site()->pages()->has('urls')) {
 		
 		echo "<div class='list'>";
 		
-		echo "<h2>".strftime('%e %B, %A', $linklist->date())."</h2><ul>";
+		echo "<h2>".strftime('%B %e, %A', $linklist->date())."</h2><ul>";
 		
 		foreach($urls as $url):
 			echo "<li>";

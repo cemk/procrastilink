@@ -1,0 +1,7 @@
+Title: Install
+----
+Text:
+
+You don't seem to have any URLs added. First time here?
+
+You can [add a few links](/install/try) and start using immediately.
