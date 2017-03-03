@@ -1,8 +1,0 @@
-Title: It's all done!
-----
-Text:
-
-Well, here we are. 
-
-Here are your secure words:  
-#(snippet: 3w)

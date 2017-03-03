@@ -1,0 +1,7 @@
+Title: It's all done!
+----
+Text:
+
+Please don't close this page before you set up your app, you won't see it again! (Your three words are safe and sound in the `save.txt` file under the `contents/save`folder, though.)
+
+Here are your secure words:  
