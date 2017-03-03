@@ -6,7 +6,7 @@ function getWords() {
     	'method'   => 'GET',
 	);
 
-	$request = new Remote('http://nouns.dev', $options);
+	$request = new Remote('http://nouns.cemkesemen.com/api', $options);
 
 	$result = $request->response()->content();
 
