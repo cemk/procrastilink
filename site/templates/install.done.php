@@ -7,3 +7,14 @@
 	</div>
 </div>
 <?php snippet('footer') ?>
+<?php
+try {
+
+  page('install')->delete(true);
+
+} catch(Exception $e) {
+
+  echo $e->getMessage();
+
+}
+?>
