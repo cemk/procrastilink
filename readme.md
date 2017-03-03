@@ -17,7 +17,7 @@ If you are familiar with Git, you can clone ProcrastiLink repository from Github
 
     git clone https://github.com/cemk/procrastilink.git
 
-##Using Workflow to Post
+## Using Workflow to Post
 For now, you need the [Workflow](http://workflow.is) app to post the URLs to the app. You can then [install this workflow](https://workflow.is/workflows/918e6365d1d34c7abd7b4beca5951e3a) and get started.
 
 # About Kirby
