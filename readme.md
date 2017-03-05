@@ -2,6 +2,10 @@
 
 ProcrastiLink is a read it later tool based on Kirby CMS. It allows one to send URLs from their phone and then view them on their computers. 
 
+### To-Do List
+- [ ] Implement a failsafe for failure to generate safe words from http://nouns.cemkesemen.com/api
+- [ ] Refactor save code so there are no nested if/else statements. 
+
 ## Installation
 
 ProcrastiLink does not require a database, which makes it very easy to
