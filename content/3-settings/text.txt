@@ -9,7 +9,7 @@ This whole thing is based on [Kirby](http://getkirby.com), a *file based* conten
 Also, since this page does not embody any *settings*, how about an *FAQ*?
 
 ## > How do I post URLs?
-Currently, via the [Workflow app](https://workflow.is/) and [this workflow](https://workflow.is/workflows/918e6365d1d34c7abd7b4beca5951e3a) I've created for it.
+Currently, via the [Workflow app](/settings/workflow). 
 
 ## > Where is my password?
 There is no password. There are three words, generated at the time of the install, which are sent with your URL request to make sure you are the one who wants to add a link to your list, and not some stranger/spammer.
