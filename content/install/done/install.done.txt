@@ -4,4 +4,8 @@ Text:
 
 Please don't close this page before you set up your app, you won't see it again! (Your three words are safe and sound in the `save.txt` file under the `contents/save`folder, though.)
 
+## > How do I post URLs?
+Currently, via the [Workflow app](https://workflow.is/) and [this workflow](https://workflow.is/workflows/918e6365d1d34c7abd7b4beca5951e3a) I've created for it.  
+Install the app, add the Workflow to the app and set it up. 
+
 Here are your secure words:  
