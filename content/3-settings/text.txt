@@ -23,7 +23,7 @@ Also, make sure your [Apache](https://github.com/getkirby/plainkit/blob/master/.
 
 ## > I'm getting weird errors while submitting. 
 I've made a thorough effort to make sure error messages were self explanatory. If not, [come at me](https://youtu.be/Dp0Bt2cbcc8) on twitter: [@cemkesemen](https://twitter.com/cemkesemen)  
-*(A quick check-list: Make sure you use an app, make sure your words are correct, make sure the `content` folder has the right permissions.)*
+*(A quick check-list: Make sure you use the app, make sure your words are correct, make sure the `content` folder has the right permissions.)*
 
 
 ## > How do I show more results on *[/latest](/)* page
