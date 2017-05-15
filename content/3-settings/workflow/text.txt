@@ -8,4 +8,4 @@ You can download the Workflow app on the App Store:
 [https://workflow.is/download](https://workflow.is/download)
 
 Then, add the *Save to ProcrastiLink* workflow to the app:  
-[https://workflow.is/workflows/918e6365d1d34c7abd7b4beca5951e3a](https://workflow.is/workflows/918e6365d1d34c7abd7b4beca5951e3a)
+[https://workflow.is/workflows/2ccb6a33c2e3450d9bb651adaeceacf9](https://workflow.is/workflows/2ccb6a33c2e3450d9bb651adaeceacf9)
