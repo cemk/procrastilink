@@ -5,7 +5,8 @@ ProcrastiLink is a read it later tool based on Kirby CMS. It allows one to send 
 ### To-Do List
 - [ ] Implement a failsafe for failure to generate safe words from https://nouns.cemkesemen.com/api
 - [x] ~~Refactor save code so there are no nested if/else statements.~~
-- [ ] Let the Workflow workflow (*sigh*) know when it is not talking to ProcrastiLink. 
+- [x] Let the Workflow workflow (*sigh*) know when it is not talking to ProcrastiLink. 
+- [ ] Refactor Workflow workflow (*sigh*) to decrease waiting time.
 
 ## Installation
 
@@ -26,6 +27,8 @@ You can alternatively clone ProcrastiLink repository from Github.
 
 ### 2. Posting link to the app
 For now, you need the [Workflow](http://workflow.is) app to post the URLs to the app. You can then [install this workflow](https://workflow.is/workflows/918e6365d1d34c7abd7b4beca5951e3a) and get started.
+
+**NEW!** Now ProcrastiLink shows a notification for successful requests, and errors for unsuccessful ones. Like real apps should.
 
 # About Kirby
 
