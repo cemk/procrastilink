@@ -26,7 +26,7 @@ You can alternatively clone ProcrastiLink repository from Github.
     git clone https://github.com/cemk/procrastilink.git
 
 ### 2. Posting link to the app
-For now, you need the [Workflow](http://workflow.is) app to post the URLs to the app. You can then [install this workflow](https://workflow.is/workflows/918e6365d1d34c7abd7b4beca5951e3a) and get started.
+For now, you need the [Workflow](http://workflow.is) app to post the URLs to the app. You can then [install this workflow](https://workflow.is/workflows/2ccb6a33c2e3450d9bb651adaeceacf9) and get started.
 
 **NEW!** Now ProcrastiLink shows a notification for successful requests, and errors for unsuccessful ones. Like real apps should.
 
